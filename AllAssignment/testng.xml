@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="D:/AllAssignment/src/test/java/PriorityTest/PriorityTests.java">
+        <classes><class name="PriorityTest.PriorityTests">
+            <methods>
+                <include name="launchBrowser"/>
+                <include name="multiCheckBox"/>
+                <include name="multiRadioButton"/>
+                <include name="closeBrowser"/>
+            </methods>
+        </class></classes>
+    </test>
+</suite>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="D:/AllAssignment/src/test/java/GroupTest">
+        <groups>
+            <run>
+                <include name="regrasion"></include>
+                <include name="smoke"></include>
+            </run>
+        </groups>
+        <classes>
+            <class name="GroupTest.GroupsTest">
+                <methods>
+<!--                    <include name="selectTest"/>-->
+<!--                    <include name="autoSuggestion"/>-->
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
